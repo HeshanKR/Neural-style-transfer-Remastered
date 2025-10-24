@@ -25,19 +25,19 @@ As a beginner, we'll take this step-by-step with clear milestones. Each mileston
 - Deliverable: Tools installed and verified.
 
 ## Phase 2: Backend Development (4-6 Hours)
-**Milestone 2.1: Python Environment Setup**
-- Create virtual environment: `python -m venv backend/venv`.
-- Activate: `backend/venv/Scripts/activate` (Windows).
+**Milestone 2.1: Python Environment Setup** ✅ Completed
+- Create virtual environment: `python -m venv backend/neural_venv`.
+- Activate: `backend/neural_venv/Scripts/activate` (Windows).
 - Install packages: `pip install flask tensorflow tensorflow-hub pillow numpy opencv-python`.
 - Deliverable: Virtual environment with dependencies.
 
-**Milestone 2.2: Basic Flask App**
+**Milestone 2.2: Basic Flask App** ✅ Completed
 - Create `backend/app.py` with a simple "Hello World" endpoint.
 - Run locally: `python app.py`.
 - Test with browser at `http://127.0.0.1:5000/`.
 - Deliverable: Running Flask server.
 
-**Milestone 2.3: Integrate ML Logic**
+**Milestone 2.3: Integrate ML Logic** ✅ Completed
 - Copy style transfer code from Jupyter notebook into `backend/app.py`.
 - Add `/stylize` endpoint to accept image uploads and return stylized image.
 - Test with sample images (e.g., dog.jpg and starry_night.jpg).
