@@ -43,38 +43,38 @@ As a beginner, we'll take this step-by-step with clear milestones. Each mileston
 - Test with sample images (e.g., dog.jpg and starry_night.jpg).
 - Deliverable: Endpoint processes images and returns results.
 
-**Milestone 2.4: Error Handling and Optimization**
+**Milestone 2.4: Error Handling and Optimization** ✅ Completed
 - Add try/catch for errors, file validation.
 - Optimize for speed (e.g., resize images if needed).
 - Deliverable: Robust backend ready for integration.
 
 ## Phase 3: Frontend Development (3-5 Hours)
-**Milestone 3.1: Angular Setup**
+**Milestone 3.1: Angular Setup** ✅ Completed
 - In `frontend/`, run `npx @angular/cli new frontend --routing --style=css`.
 - Navigate to `frontend/` and run `npm install`.
 - Start dev server: `ng serve`.
 - Deliverable: Basic Angular app running at `http://localhost:4200`.
 
-**Milestone 3.2: UI Components**
+**Milestone 3.2: UI Components** ✅ Completed
 - Create upload forms for content and style images.
 - Add a button to trigger stylization.
 - Display result image.
 - Deliverable: Functional UI with placeholders.
 
-**Milestone 3.3: API Integration**
+**Milestone 3.3: API Integration** ✅ Completed
 - Install Angular HttpClient: `npm install @angular/common/http`.
 - Modify component to send POST requests to backend API.
 - Handle responses and display stylized image.
 - Deliverable: Frontend calls backend and shows results.
 
 ## Phase 4: Integration and Testing (2-3 Hours)
-**Milestone 4.1: Local Integration**
+**Milestone 4.1: Local Integration** ✅ Completed
 - Run backend and frontend simultaneously.
 - Upload images and verify end-to-end flow.
 - Test with different image sizes.
 - Deliverable: App works locally.
 
-**Milestone 4.2: Debugging and Polish**
+**Milestone 4.2: Debugging and Polish** ✅ Completed
 - Fix any CORS or upload issues.
 - Add loading indicators and error messages.
 - Ensure responsive design.
