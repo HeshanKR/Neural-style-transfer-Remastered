@@ -1,6 +1,6 @@
 # Neural Style Transfer App Roadmap
 
-This roadmap outlines the complete process to build a hosted neural style transfer application from scratch. The app will feature a frontend (Angular) for uploading images and displaying results, a backend (Flask/Python) for processing with TensorFlow, and hosting on Heroku (backend) and Netlify (frontend). We'll reuse the high-quality ML logic from the Jupyter notebook.
+This roadmap outlines the complete process to build a hosted neural style transfer application from scratch. The app will feature a frontend (Angular) for uploading images and displaying results, a backend (Flask/Python) for processing with TensorFlow, and hosting on Railway (backend) and Vercel (frontend). We'll reuse the high-quality ML logic from the Jupyter notebook.
 
 As a beginner, we'll take this step-by-step with clear milestones. Each milestone includes estimated time, prerequisites, and deliverables. Track progress by checking off completed items.
 
@@ -81,18 +81,17 @@ As a beginner, we'll take this step-by-step with clear milestones. Each mileston
 - Deliverable: Polished local app.
 
 ## Phase 5: Hosting and Deployment (2-4 Hours)
-**Milestone 5.1: Backend Hosting (Heroku)**
-- Create Heroku account and install Heroku CLI.
-- In `backend/`, create `requirements.txt` and `Procfile`.
-- Deploy: `heroku create`, `git push heroku main`.
-- Deliverable: Backend live on Heroku (e.g., `https://your-app.herokuapp.com`).
+**Milestone 5.1: Backend Hosting (Railway)**
+- Create Railway account and connect GitHub repo.
+- Deploy backend from GitHub (Railway auto-detects Flask).
+- Deliverable: Backend live on Railway (e.g., `https://your-app.up.railway.app`).
 
-**Milestone 5.2: Frontend Hosting (Netlify)**
+**Milestone 5.2: Frontend Hosting (Vercel)**
 - Build Angular: `ng build --prod`.
-- Create Netlify account, connect GitHub repo.
+- Create Vercel account, connect GitHub repo.
 - Deploy from `dist/` folder.
-- Update API calls to Heroku URL.
-- Deliverable: Frontend live on Netlify.
+- Update API calls to Railway URL.
+- Deliverable: Frontend live on Vercel.
 
 **Milestone 5.3: Final Testing**
 - Test hosted app with real images.
@@ -109,7 +108,7 @@ As a beginner, we'll take this step-by-step with clear milestones. Each mileston
 - Follow milestones sequentially.
 - Use VS Code for editing.
 - Backup code with Git commits after each milestone.
-- Resources: Official docs for Flask, Angular, Heroku, Netlify.
+- Resources: Official docs for Flask, Angular, Railway, Vercel.
 - If issues arise, provide error messages for targeted help.
 
 Ready to start? Begin with Milestone 1.1.
