@@ -64,7 +64,7 @@ export class App {
     formData.append('content', this.contentImage);
     formData.append('style', this.styleImage);
 
-    this.http.post<{stylized_image: string}>('http://127.0.0.1:5000/stylize', formData)
+    this.http.post<{stylized_image: string}>('https://neural-style-transfer-remastered-production.up.railway.app/stylize', formData)
       .subscribe({
         next: (response) => {
           this.stylizedImage = 'data:image/jpeg;base64,' + response.stylized_image;
