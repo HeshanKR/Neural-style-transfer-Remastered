@@ -81,7 +81,7 @@ As a beginner, we'll take this step-by-step with clear milestones. Each mileston
 - Deliverable: Polished local app.
 
 ## Phase 5: Hosting and Deployment (2-4 Hours)
-**Milestone 5.1: Backend Hosting (Railway)**
+**Milestone 5.1: Backend Hosting (Railway)** ✅ Completed
 - Create Railway account and connect GitHub repo.
 - Deploy backend from GitHub (Railway auto-detects Flask).
 - Deliverable: Backend live on Railway (e.g., `https://your-app.up.railway.app`).
