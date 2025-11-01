@@ -4,14 +4,14 @@
       "src": "neural-style-app/frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "neural-style-app/frontend/dist"
+        "distDir": "neural-style-app/frontend/public"
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/neural-style-app/frontend/dist/index.html"
+      "dest": "/neural-style-app/frontend/public/index.html"
     }
   ]
 }
