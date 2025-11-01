@@ -1,0 +1,6 @@
+{
+  "name": "neural-style-transfer",
+  "scripts": {
+    "build": "cd neural-style-app/frontend && npm run build"
+  }
+}
